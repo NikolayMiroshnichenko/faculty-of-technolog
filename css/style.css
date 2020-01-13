@@ -45,6 +45,12 @@ body {
     background-color: #699fb7;
     color: #ffffff;
 }
+.mobil-close {
+    display: none;
+}
+.menu-icon {
+    display: none;
+}
 .mainWrapper {
     width: 100%;
     height: 560px;

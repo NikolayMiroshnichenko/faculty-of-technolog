@@ -4,3 +4,133 @@
         margin: 0 auto;
     }
 }
+@media (max-width: 1169px) {
+    .container {
+        width: 320px;
+    }
+    .header {
+        height: 70px;
+    }
+    .navigation {
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        width: 70%;
+        padding: 40px 20px;
+        background-color: #ffffff;
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+        z-index: 999;
+    }
+    .navigation a {
+        padding: 12px 6px;
+        border-bottom: 1px solid #699fb7;
+    }
+    .mobil-close {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom: 10%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background-color: #699fb7;
+        color: #ffffff;
+        border: none;
+        outline: none;
+        font-size: 12px;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+    }
+    .mainWrapper {
+        height: 100vh;
+    }
+    .menu-icon {
+        display: block;
+        position: fixed;
+        right: 20px;
+        top: 10px;
+        width: 50px;
+        height: 50px;
+        background-color: #ffffff;
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+        border-radius: 10px;
+        z-index: 998;
+    }
+    .menu-icon__item {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 30px;
+        height: 20px;
+        background-image: url(../img/icon-menu.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .main-title {
+        font-size: 24px;
+    }
+    .descriptions {
+        flex-direction: column;
+    }
+    .descriptions-img {
+        width: 100%;
+    }
+    .descriptions-block {
+        width: 100%;
+        padding: 0 0 80px 0;
+    }
+    .descriptions-block__btn {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .chair-list {
+        align-items: center;
+        flex-direction: column;
+    }
+    .chair-list li {
+        padding: 0 0 60px 0;
+        margin-bottom: 40px;
+        height: auto;
+    }
+    .chair-list__btn {
+        left: 0;
+    }
+    .chair-list li:hover {
+        transform: scale(1);
+        border-radius: 0px;
+        box-shadow: none;
+    }
+    .education {
+        position: relative;
+        width: 90%;
+        padding: 40px 10px;
+        
+    }
+    .education-list__title {
+        font-size: 12px;
+    }
+    .education-list__btn {
+        margin-left: 16px;
+    }
+    .marker {
+        width: 80px;
+        height: 50px;
+    }
+    #maps {
+        border: none;
+        border-top: 2px solid #699fb7;
+
+    }
+    .footer-item {
+        font-size: 12px;
+    }
+}
+    
+
